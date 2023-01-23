@@ -12,6 +12,7 @@ Interactive visualization dashboard on CO2 emissions in Python with Panel <br>
         python -m venv path\to\myenv
         cd path\to\myenv
         Scripts\activate.bat
+  ![cmd1](https://github.com/sanssonu/CO2-emissions-dashboard/tree/main/images/cmd-01.png)
   <li>For Mac:</li>
     
         python3 -m venv ./
