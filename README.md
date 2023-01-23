@@ -21,7 +21,7 @@ Interactive visualization dashboard on CO2 emissions in Python with Panel. <br>
 </ul>
 <p>This will create an isolated environment for our Python project so that this project can have its own dependencies and packages, regardless of whatever dependencies every other project has.</p>
 <li>
-Install hvplot and Jupyter Lab with:<br>
+Install hvPlot and Jupyter Lab with:<br>
 
      pip3 install hvplot jupyterlab
 ![cmd-02](https://user-images.githubusercontent.com/73981055/214107468-f8134d97-27e4-46bc-a07f-72439d1f29ff.PNG)
@@ -29,13 +29,13 @@ Install hvplot and Jupyter Lab with:<br>
 
         deactivate
  ![cmd-03](https://user-images.githubusercontent.com/73981055/214107618-9fd526d3-0733-417c-8951-53b509b3c0c5.PNG)
-<p>We'll now install panel in the base environment instead of our virtual environment, otherwise the plots might not be interactive in Jupyter Lab.</p>
+<p>We'll now install Panel in the base environment instead of our virtual environment, otherwise the plots might not be interactive in Jupyter Lab.</p>
 
         pip3 install panel
 </li>
   
  ![cmd-04](https://user-images.githubusercontent.com/73981055/214107727-b958ef15-b7f2-4616-b4c6-bb521d7d9274.PNG)
-<li><p>Go back to the virtual environment and open jupyter lab in it:</p>
+<li><p>Go back to the virtual environment and open Jupyter Lab in it:</p>
 <ul>
   <li>For Windows:</li>
   
@@ -50,7 +50,7 @@ Install hvplot and Jupyter Lab with:<br>
  ![cmd-05](https://user-images.githubusercontent.com/73981055/214107922-80642af0-18bd-4dda-a76a-cde3fc952840.PNG)
 <p>Alternatively, you can clone this repository and copy and paste the files in your own project folder made above.</p>
 </li>
-<li><p>To serve the dashboard locally, open the terminal of jupyter lab and use the command:</p></li>
+<li><p>To serve the dashboard locally, open the terminal of Jupyter Lab and use the command:</p></li>
 
         panel serve co2_emissions_dashboard.ipynb
 ![serve](https://user-images.githubusercontent.com/73981055/214115528-8d9ed9ef-29e0-4a00-92f8-e12f305af54f.PNG)
