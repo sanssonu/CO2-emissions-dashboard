@@ -1,5 +1,5 @@
 # CO2-emissions-dashboard
-Interactive visualization dashboard on CO2 emissions in Python with Panel <br>
+Interactive visualization dashboard on CO2 emissions in Python with Panel. <br>
 
 <p>Here are the steps to run this project:</p>
 <ol>
@@ -12,7 +12,7 @@ Interactive visualization dashboard on CO2 emissions in Python with Panel <br>
         python -m venv path\to\myenv
         cd path\to\myenv
         Scripts\activate.bat
-  ![cmd1](/images/cmd-01.png)
+  ![cmd-01](https://user-images.githubusercontent.com/73981055/214107241-db2858aa-73f8-42bd-b029-6d27e812214b.PNG)
   <li>For Mac:</li>
     
         python3 -m venv ./
@@ -22,19 +22,23 @@ Interactive visualization dashboard on CO2 emissions in Python with Panel <br>
 <li>
 Install hvplot and Jupyter Lab with:<br>
 
-        pip3 install hvplot jupyterlab
+     pip3 install hvplot jupyterlab
+![cmd-02](https://user-images.githubusercontent.com/73981055/214107468-f8134d97-27e4-46bc-a07f-72439d1f29ff.PNG)
 <p>Now, go out of the virtual environment with:</p>
 
         deactivate
+ ![cmd-03](https://user-images.githubusercontent.com/73981055/214107618-9fd526d3-0733-417c-8951-53b509b3c0c5.PNG)
 <p>We'll now install panel in the base environment instead of our virtual environment, otherwise the plots might not be interactive in Jupyter Lab.</p>
 
         pip3 install panel
 </li>
+  
+ ![cmd-04](https://user-images.githubusercontent.com/73981055/214107727-b958ef15-b7f2-4616-b4c6-bb521d7d9274.PNG)
 <li><p>Go back to the virtual environment and open jupyter lab with:</p>
 
-        source bin/activate
+        source bin/activate.bat
         jupyter lab
-<p>
-Alternatively, you can clone this repository and copy and paste the files in your own project folder as instructed above.</p>
+ ![cmd-05](https://user-images.githubusercontent.com/73981055/214107922-80642af0-18bd-4dda-a76a-cde3fc952840.PNG)
+<p>Alternatively, you can clone this repository and copy and paste the files in your own project folder made above.</p>
 </li>
 </ol>
