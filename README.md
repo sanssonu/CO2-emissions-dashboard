@@ -41,4 +41,7 @@ Install hvplot and Jupyter Lab with:<br>
  ![cmd-05](https://user-images.githubusercontent.com/73981055/214107922-80642af0-18bd-4dda-a76a-cde3fc952840.PNG)
 <p>Alternatively, you can clone this repository and copy and paste the files in your own project folder made above.</p>
 </li>
+<li><p>To serve the dashboard locally, use the command:</p></li>
+
+        panel serve co2_emissions_dashboard.ipynb
 </ol>
