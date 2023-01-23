@@ -1,5 +1,6 @@
 # CO2-emissions-dashboard
 Interactive visualization dashboard on CO2 emissions in Python with Panel. <br>
+![output](https://user-images.githubusercontent.com/73981055/214110113-9dc2a643-fdc4-4233-81f0-44c8fac8e20e.PNG)
 
 <p>Here are the steps to run this project:</p>
 <ol>
